@@ -1,0 +1,10 @@
+Exp 01: To Simulate a linear DC Circuit for determining all node voltages in SPICE
+VS 1 0 DC 20V
+IS 0 3 DC 20mA
+VX 4 0 DC 0V
+VY 5 3 DC 0V
+R1 1 2 1K
+R2 2 5 1K
+R3 2 4 1K
+.OP
+.END
