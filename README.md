@@ -2,10 +2,10 @@
 Code base Circuit Simulation Lab (EC-316) 
 Introductory-level PSPICE Codes are available here.
 
-Download the following software to get started: 
+# Download the following software to get started: 
 https://www.eng.auburn.edu/~troppel/91pspstu.exe
 
-List of Experiments
+# List of Experiments
 1. To simulate a linear dc circuit for determining all node voltages using SPICE.
 2. To perform nodal analysis for a given linear dc circuit using SPICE/ MATLAB.
 3. To obtain Thevinin's equivalent circuit with the help of SPICE/ MATLAB program.
