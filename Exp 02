@@ -1,0 +1,10 @@
+Exp 2: To perform nodal analysis for a given linear dc circuit using SPICE
+v1 1 0 10v
+v2 4 0 15v
+r1 1 2 10k
+r2 2 0 10k
+r3 2 3 5k
+r4 3 0 10k
+r5 3 4 10k
+.op
+.end
