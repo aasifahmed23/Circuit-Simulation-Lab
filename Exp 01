@@ -1,50 +1,54 @@
 ** Exp 1a : To simulate a linear dc circuit for determining all node voltages
-VS 1 0 DC 0V
-IS 0 4 DC 20A
+VS 1 0 DC 20V
+IS 0 4 DC 20mA
 R1 1 2 1k
 R2 2 5 1k
 R3 2 3 1K
-R4 4 0 1k
+R4 4 6 1k
 VX 3 0 DC 0V
 VY 4 5 DC 0V
+VZ 6 0 DC 0V
 .OP
 .END
 
 ** Exp 1b : To simulate a linear dc circuit for determining all node voltages
-VS 1 0 DC 0V
-IS 0 4 DC 20A
+VS 1 0 DC 20V
+IS 0 4 DC 20mA
 R1 1 2 1k
 R2 2 5 1k
 R3 2 3 1K
-R4 4 0 1k
+R4 4 6 1k
 VX 3 0 DC 0V
 VY 4 5 DC 0V
+VZ 6 0 DC 0V
 .DC VS 10 30 10
 .PRINT DC V(1) V(4) I(VX) I(VY)
 .END
 
 ** Exp 1c : To simulate a linear dc circuit for determining all node voltages
-VS 1 0 DC 0V
-IS 0 4 DC 20A
+VS 1 0 DC 20V
+IS 0 4 DC 20mA
 R1 1 2 1k
 R2 2 5 1k
 R3 2 3 1K
-R4 4 0 1k
+R4 4 6 1k
 VX 3 0 DC 0V
 VY 4 5 DC 0V
+VZ 6 0 DC 0V
 .DC VS 10 30 10
 .PLOT DC V(1) V(4) I(VX) I(VY)
 .END
 
 ** Exp 1d : To simulate a linear dc circuit for determining all node voltages
-VS 1 0 DC 0V
-IS 0 4 DC 20A
+VS 1 0 DC 20V
+IS 0 4 DC 20mA
 R1 1 2 1k
 R2 2 5 1k
 R3 2 3 1K
-R4 4 0 1k
+R4 4 6 1k
 VX 3 0 DC 0V
 VY 4 5 DC 0V
+VZ 6 0 DC 0V
 .DC VS 10 30 10
 .PROBE 
 .END
