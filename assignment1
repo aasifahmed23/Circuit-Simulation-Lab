@@ -1,0 +1,21 @@
+** EC-316 Assignment #1
+VIN 1 0 DC 1V SIN(0 1M 1KHZ 0 0) 
+VDD 8 0 DC 5V
+R1 8 4 10K
+R2 1 2 100OHM
+R3 5 0 500OHM
+R4 6 0 10K
+C1 2 3 1UF
+C2 4 6 1UF
+C3 5 0 1UF
+J1 4 3 5 JMOD
+.MODEL JMOD NJF
+.TRAN 0 2M
+.PROBE
+.END 
+
+Q1) Try to sketch the circuit as per the given code
+Q2) What does this circuit do?
+Q3) What other kinds of Analysis that can be done. 
+Q4) Attach Code snippets and Results showing THREE separate kinds of Analysis.
+
