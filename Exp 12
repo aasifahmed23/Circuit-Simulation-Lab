@@ -1,17 +1,4 @@
-Exp 12a:Common-base BJT amplifier 
-vsupply 1 0 dc 24 
-vin 0 4 dc 0
-rc 1 2 800 
-re 3 4 100 
-q1 2 0 3 mod1 
-.model mod1 npn bf=50 
-.dc vin 0 5 0.1 
-.print dc v(2,3) 
-.plot dc v(2,3) 
-.probe
-.end
-
-Exp 12b:Common-Emitter BJT amplifier
+Exp 12a:Common-Emitter BJT amplifier
 VIN 1 0 AC 10MV SIN(0MV 10MV 1KHZ)
 VCC 0 7 DC 15V
 RS 1 2 500
@@ -33,7 +20,20 @@ Q1 4 3 5 0 QM
 .PROBE
 .END
 
-Exp 12d: Common Source JFET amplifier 
+Exp 12b:Common-base BJT amplifier 
+vsupply 1 0 dc 24 
+vin 0 4 dc 0
+rc 1 2 800 
+re 3 4 100 
+q1 2 0 3 mod1 
+.model mod1 npn bf=50 
+.dc vin 0 5 0.1 
+.print dc v(2,3) 
+.plot dc v(2,3) 
+.probe
+.end
+
+Exp 12c: Common Source JFET amplifier 
 vin 1 0 sin(0 1 60 0 0) 
 vdd 3 0 dc 20 
 rdrain 3 2 10k 
