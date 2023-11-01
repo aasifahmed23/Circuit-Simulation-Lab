@@ -4,7 +4,7 @@ Introductory-level PSPICE Codes are available here.
 
 # Download the following software to get started: 
 https://www.eng.auburn.edu/~troppel/91pspstu.exe        
-http://opencircuitdesign.com/xcircuit/
+http://opencircuitdesign.com/xcircuit/        
 Matlab R2015a or later.
 
 # List of Experiments
