@@ -1,0 +1,12 @@
+Exp 7: To verify superposition theorem for the given linear dc circuit using SPICE
+v1 1 0 10v
+v2 4 0 10v
+v3 5 0 0v
+v4 6 0 0v
+r1 1 2 10k
+r2 2 5 10k
+r3 2 3 5k
+r4 3 6 10k
+r5 3 4 10k
+.op
+.end
